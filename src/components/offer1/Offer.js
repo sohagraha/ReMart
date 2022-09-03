@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import OfferImage from '../../assets/images/offer.jpg';
 
 const Offer = () => {
@@ -6,9 +7,9 @@ const Offer = () => {
         <>
             {/* <!-- ads --> */}
             <div class="container pb-16">
-                <a href="#">
+                <Link to={"/shop"}>
                     <img src={OfferImage} alt="ads" class="w-full" />
-                </a>
+                </Link>
             </div>
             {/* <!-- ./ads --> */}
         </>

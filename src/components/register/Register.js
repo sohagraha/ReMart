@@ -42,8 +42,7 @@ const Register = () => {
                             <div class="flex items-center">
                                 <input type="checkbox" name="aggrement" id="aggrement"
                                     class="text-primary focus:ring-0 rounded-sm cursor-pointer" />
-                                <label for="aggrement" class="text-gray-600 ml-3 cursor-pointer">I have read and agree to the <a
-                                    href="#" class="text-primary">terms & conditions</a></label>
+                                <label for="aggrement" class="text-gray-600 ml-3 cursor-pointer">I have read and agree to the <Link to={"/"} class="text-primary">terms & conditions</Link></label>
                             </div>
                         </div>
                         <div class="mt-4">

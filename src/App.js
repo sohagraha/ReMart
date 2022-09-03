@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Footer from './components/footer/Footer';
 import Login from './components/login/Login';
 import Header from './components/navbar/Header';
 import Profile from './components/profile/Profile';
@@ -36,6 +37,7 @@ function App() {
           <Route path="wishlist" element={<MyWishlist />} />
         </Route>
       </Routes>
+      <Footer />
     </>
   );
 }

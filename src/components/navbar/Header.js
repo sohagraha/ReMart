@@ -25,7 +25,7 @@ const Header = () => {
                     </div>
 
                     <div className="flex items-center justify-center space-x-4">
-                        <Link to={"/"} className="relative hidden text-center text-gray-700 transition hover:text-primary md:block">
+                        <Link to={"/profile/wishlist"} className="relative hidden text-center text-gray-700 transition hover:text-primary md:block">
                             <div className="text-2xl">
                                 <FaHeart />
                             </div>
