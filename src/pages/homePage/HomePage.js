@@ -1,11 +1,16 @@
 import React from 'react';
-import Header from '../../components/navbar/Header';
+import BannerMain from '../../components/banner/BannerMain';
+import Category from '../../components/category/Category';
+import Feature from '../../components/feature/Feature';
 import Navbar from '../../components/navbar/Navbar';
 
 const HomePage = () => {
     return (
         <>
             <Navbar />
+            <BannerMain />
+            <Feature />
+            <Category />
         </>
     );
 };
