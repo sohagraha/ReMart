@@ -15,7 +15,9 @@ import MyVoucher from './components/profile/profileElements/MyVoucher';
 import MyWishlist from './components/profile/profileElements/MyWishlist';
 import ProfileInfo from './components/profile/profileElements/ProfileInfo';
 import Register from './components/register/Register';
+import CheckoutPage from './pages/checkout/CheckoutPage';
 import HomePage from './pages/homePage/HomePage';
+import Product from './pages/product/Product';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/product/:productId" element={<Product />} />
+        <Route path="/checkout" element={<CheckoutPage />} />
         <Route path="/profile" element={<Profile />}>
           <Route path="" element={<ManageAccount />} />
           <Route path="info" element={<ProfileInfo />} />
@@ -36,6 +40,7 @@ function App() {
           <Route path="voucher" element={<MyVoucher />} />
           <Route path="wishlist" element={<MyWishlist />} />
         </Route>
+        <Route path="*" element={<h1>404 Not Found</h1>} />
       </Routes>
       <Footer />
     </>
