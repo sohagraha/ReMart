@@ -4,6 +4,7 @@ import Category from '../../components/category/Category';
 import Feature from '../../components/feature/Feature';
 import Navbar from '../../components/navbar/Navbar';
 import NewArrival from '../../components/newArrival/NewArrival';
+import Offer from '../../components/offer1/Offer';
 
 const HomePage = () => {
     return (
@@ -13,6 +14,7 @@ const HomePage = () => {
             <Feature />
             <Category />
             <NewArrival />
+            <Offer />
         </>
     );
 };

@@ -14,7 +14,7 @@ const NewArrival = () => {
             {/* <!-- new arrival --> */}
             <div className="container pb-16">
                 <h2 className="mb-6 text-2xl font-medium text-gray-800 uppercase">top new arrival</h2>
-                <div className="grid grid-cols-4 gap-6">
+                <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
                     <div className="overflow-hidden bg-white rounded shadow group">
                         <div className="relative">
                             <img src={Product1} alt="New Arrival" class="w-full" />

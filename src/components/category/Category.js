@@ -13,7 +13,7 @@ const Category = () => {
             {/* <!-- categories --> */}
             <div class="container pb-12">
                 <h2 class="mb-6 text-2xl font-medium text-gray-800 uppercase">shop by category</h2>
-                <div class="grid grid-cols-3 gap-3">
+                <div class="grid grid-col-12  md:grid-cols-3 gap-3">
                     <div class="relative overflow-hidden rounded-sm group">
                         <img src={Cat1} alt="category 1" class="w-full" />
                         <Link to="/shop"

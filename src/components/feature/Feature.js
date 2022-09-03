@@ -8,7 +8,7 @@ const Feature = () => {
         <>
             {/* <!-- features --> */}
             <div class="container py-16">
-                <div class="grid justify-center w-10/12 grid-cols-3 gap-6 mx-auto">
+                <div class="grid justify-center w-10/12 grid-cols-1 md:grid-cols-3 gap-6 mx-auto">
                     <div class="flex items-center justify-center gap-5 px-3 py-6 border rounded-sm border-primary">
                         <TbTruckDelivery class="object-contain w-12 h-12" alt="Delivery" />
                         <div>
