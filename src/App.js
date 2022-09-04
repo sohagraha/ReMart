@@ -18,6 +18,7 @@ import Register from './components/register/Register';
 import CheckoutPage from './pages/checkout/CheckoutPage';
 import HomePage from './pages/homePage/HomePage';
 import Product from './pages/product/Product';
+import ShopPage from './pages/shop/ShopPage';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/shop" element={<ShopPage />} />
         <Route path="/product/:productId" element={<Product />} />
         <Route path="/checkout" element={<CheckoutPage />} />
         <Route path="/profile" element={<Profile />}>
