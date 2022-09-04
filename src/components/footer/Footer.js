@@ -17,15 +17,15 @@ const Footer = () => {
                             </p>
                         </div>
                         <div className="flex space-x-6">
-                            <a href="#" className="text-gray-400 hover:text-gray-500"><i
-                                className="fa-brands fa-facebook-square"></i></a>
-                            <a href="#" className="text-gray-400 hover:text-gray-500"><i
-                                className="fa-brands fa-instagram-square"></i></a>
-                            <a href="#" className="text-gray-400 hover:text-gray-500"><i
-                                className="fa-brands fa-twitter-square"></i></a>
-                            <a href="#" className="text-gray-400 hover:text-gray-500">
+                            <Link to={"/"} className="text-gray-400 hover:text-gray-500"><i
+                                className="fa-brands fa-facebook-square"></i></Link>
+                            <Link to={"/"} className="text-gray-400 hover:text-gray-500"><i
+                                className="fa-brands fa-instagram-square"></i></Link>
+                            <Link to={"/"} className="text-gray-400 hover:text-gray-500"><i
+                                className="fa-brands fa-twitter-square"></i></Link>
+                            <Link to={"/"} className="text-gray-400 hover:text-gray-500">
                                 <i className="fa-brands fa-github-square"></i>
-                            </a>
+                            </Link>
                         </div>
                     </div>
 
@@ -34,20 +34,20 @@ const Footer = () => {
                             <div>
                                 <h3 className="text-sm font-semibold tracking-wider text-gray-400 uppercase">Solutions</h3>
                                 <div className="mt-4 space-y-4">
-                                    <a href="#" className="block text-base text-gray-500 hover:text-gray-900">Marketing</a>
-                                    <a href="#" className="block text-base text-gray-500 hover:text-gray-900">Analitycs</a>
-                                    <a href="#" className="block text-base text-gray-500 hover:text-gray-900">Commerce</a>
-                                    <a href="#" className="block text-base text-gray-500 hover:text-gray-900">Insights</a>
+                                    <Link to={"/"} className="block text-base text-gray-500 hover:text-gray-900">Marketing</Link>
+                                    <Link to={"/"} className="block text-base text-gray-500 hover:text-gray-900">Analitycs</Link>
+                                    <Link to={"/"} className="block text-base text-gray-500 hover:text-gray-900">Commerce</Link>
+                                    <Link to={"/"} className="block text-base text-gray-500 hover:text-gray-900">Insights</Link>
                                 </div>
                             </div>
 
                             <div>
                                 <h3 className="text-sm font-semibold tracking-wider text-gray-400 uppercase">Support</h3>
                                 <div className="mt-4 space-y-4">
-                                    <a href="#" className="block text-base text-gray-500 hover:text-gray-900">Pricing</a>
-                                    <a href="#" className="block text-base text-gray-500 hover:text-gray-900">Documentation</a>
-                                    <a href="#" className="block text-base text-gray-500 hover:text-gray-900">Guides</a>
-                                    <a href="#" className="block text-base text-gray-500 hover:text-gray-900">API Status</a>
+                                    <Link to={"/"} className="block text-base text-gray-500 hover:text-gray-900">Pricing</Link>
+                                    <Link to={"/"} className="block text-base text-gray-500 hover:text-gray-900">Documentation</Link>
+                                    <Link to={"/"} className="block text-base text-gray-500 hover:text-gray-900">Guides</Link>
+                                    <Link to={"/"} className="block text-base text-gray-500 hover:text-gray-900">API Status</Link>
                                 </div>
                             </div>
                         </div>
@@ -55,20 +55,20 @@ const Footer = () => {
                             <div>
                                 <h3 className="text-sm font-semibold tracking-wider text-gray-400 uppercase">Solutions</h3>
                                 <div className="mt-4 space-y-4">
-                                    <a href="#" className="block text-base text-gray-500 hover:text-gray-900">Marketing</a>
-                                    <a href="#" className="block text-base text-gray-500 hover:text-gray-900">Analitycs</a>
-                                    <a href="#" className="block text-base text-gray-500 hover:text-gray-900">Commerce</a>
-                                    <a href="#" className="block text-base text-gray-500 hover:text-gray-900">Insights</a>
+                                    <Link to={"/"} className="block text-base text-gray-500 hover:text-gray-900">Marketing</Link>
+                                    <Link to={"/"} className="block text-base text-gray-500 hover:text-gray-900">Analitycs</Link>
+                                    <Link to={"/"} className="block text-base text-gray-500 hover:text-gray-900">Commerce</Link>
+                                    <Link to={"/"} className="block text-base text-gray-500 hover:text-gray-900">Insights</Link>
                                 </div>
                             </div>
 
                             <div>
                                 <h3 className="text-sm font-semibold tracking-wider text-gray-400 uppercase">Support</h3>
                                 <div className="mt-4 space-y-4">
-                                    <a href="#" className="block text-base text-gray-500 hover:text-gray-900">Pricing</a>
-                                    <a href="#" className="block text-base text-gray-500 hover:text-gray-900">Documentation</a>
-                                    <a href="#" className="block text-base text-gray-500 hover:text-gray-900">Guides</a>
-                                    <a href="#" className="block text-base text-gray-500 hover:text-gray-900">API Status</a>
+                                    <Link to={"/"} className="block text-base text-gray-500 hover:text-gray-900">Pricing</Link>
+                                    <Link to={"/"} className="block text-base text-gray-500 hover:text-gray-900">Documentation</Link>
+                                    <Link to={"/"} className="block text-base text-gray-500 hover:text-gray-900">Guides</Link>
+                                    <Link to={"/"} className="block text-base text-gray-500 hover:text-gray-900">API Status</Link>
                                 </div>
                             </div>
                         </div>
